@@ -1,5 +1,8 @@
+var number; 
 function add(a, b) {
-  return a + b;
+  number = a + b;
+  return number;
+  
 }
 
 function subtract(a, b) {
@@ -22,4 +25,14 @@ function inc(n){
 function dec(n) {
   n--;
   return n;
+}
+
+function makeInt(a) {
+  number = parseInt(a, 10);
+  return number;
+}
+
+function preserveDecimal(a) {
+  number = parseFloat(a, 10);
+  return number;
 }
