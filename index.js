@@ -6,25 +6,28 @@ function add(a, b) {
 }
 
 function subtract(a, b) {
-  return a - b;
+  number = a - b;
+  return number;
 }
 
 function multiply(a, b) {
-  return a * b;
+  number = a * b;
+  return number;
 }
 
 function divide(a, b) {
-  return a / b;
+  number = a / b;
+  return number;
 }
 
 function inc(n){
-  n++;
-  return n;
+  number = a + 1;
+  return number;
 }
 
 function dec(n) {
-  n--;
-  return n;
+  number = a - 1;
+  return number;
 }
 
 function makeInt(a) {
